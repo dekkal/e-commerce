@@ -1,0 +1,68 @@
+// Globa Colors
+$primary-color:#fe538d;
+$secondary-color:#ffb703;
+$text-color:#000;
+$text-white:#FFFFFF;
+$dark-backround:#222725;
+$light-backround:#9e9b9b;
+
+
+
+Header{
+.logo img {
+    border-radius: 50%;
+}
+ 
+    nav{
+
+
+       
+        .nav-link{
+           
+            font-size:1em;
+            text-transform:capitalize;
+            color: 222725;
+            font-weight: 500;
+            margin-left: 20px;
+            // padding-left: 100px;
+
+        }
+        .logo{
+            text-transform: uppercase;
+            font-size: 1em;
+            font-weight: 500;
+            span{
+                color: $primary-color;
+            }
+        }
+       
+
+
+
+    }
+}
+
+
+
+.section-1{
+.hero{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0)),url('./../CoverImage.jpg');
+    min-height: 800px;
+    text-align:left;
+    color: $text-white;
+    background-repeat: no-repeat;
+    // width: 100%;
+    background-size: cover;
+    
+   
+    span{
+        color: $secondary-color;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+     .btn .btn-primary{
+            background-color: $primary-color;
+        }
+}
+
+}
